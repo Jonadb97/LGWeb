@@ -77,12 +77,16 @@ div.item:nth-of-type(5) {
 @media (max-width: 600px) {
   input {
       width: 32px;
+    transform: translateX(120px);
   }
   }
 
+
+@media (min-width: 600px) {
 input {
   width: 32px;
   transform: translateX(460px);
+}
 }
 
 input:nth-of-type(1) {
