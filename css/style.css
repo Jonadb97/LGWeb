@@ -74,6 +74,12 @@ div.item:nth-of-type(5) {
   background-color: #e9ff70;
 }
 
+@media (max-width: 600px) {
+  input {
+      width: 32px;
+  }
+  }
+
 input {
   width: 32px;
   transform: translateX(460px);
